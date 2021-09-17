@@ -8,4 +8,6 @@ const sentence = {
     S2: verb[Math.floor(Math.random()*verb.length)],
     S3: compl[Math.floor(Math.random()*compl.length)]
 };
- console.log(`${sentence.S1} ${sentence.S2} ${sentence.S3}`);
+
+let phrase = `${sentence.S1} ${sentence.S2} ${sentence.S3}`
+ console.log(phrase);
